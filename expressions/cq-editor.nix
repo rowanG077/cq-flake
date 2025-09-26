@@ -11,6 +11,8 @@ mkDerivationWith python3Packages.buildPythonApplication {
   pname = "cq-editor";
   version = "local";
 
+  format = "setuptools";
+
   # src = ./CQ-editor;
   inherit src;
 
